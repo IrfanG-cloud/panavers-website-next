@@ -35,7 +35,7 @@ export default function HeroSection() {
         </div>
 
         <Image
-          src="/metaverse.png"
+          src="/meta-bg.png"
           height={1800}
           width={1000}
           alt="image"
