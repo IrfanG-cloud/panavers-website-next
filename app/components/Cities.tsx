@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Cities() {
   return (
-    <div className="w-full bg-gray-300">
+    <div className="w-full bg-gray-100">
       <div>
         <div className="group relative">
-          <div className=" w-full h-[200px] justify-center text-purple-900 pt-[80px] text-center ">
-            <h1 className="text-[14px] text-4xl ">
+          <div className=" w-full h-[200px] justify-center text-purple-900 text-center ">
+            <h1 className="text-[14px] text-4xl">
               A Nationwide Program
             </h1>
           </div>

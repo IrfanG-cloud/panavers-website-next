@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Outcome() {
   return (
     // bg-gradient-to-tr from-gray-600 to-gray-500
-    <div className=" w-full py-[80px] bg-white">
+    <div className=" w-full py-[50px] bg-white">
       <div className="w-full">
         <h1 className="text-[14px] text-4xl px-[50px] text-center text-gray-800">
           The Outcome for Participants of the Program

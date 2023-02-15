@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function CoreCourse() {
   return (
-    <div className="w-full bg-gray-200 justify-center">
+    <div className="w-full bg-gray-100 justify-center">
       <div className="w-full ">
         <div className="group relative">
-          <div className=" w-full text-black-800 py-[80px] text-center">
+          <div className=" w-full text-black-800 py-[50px] text-center">
             <h1 className="text-[14px] text-purple-900 text-4xl">
               Core Courses <span className="text-[14px] text-3xl ">(Common in All Specializations)</span>
             </h1>
@@ -18,8 +18,8 @@ export default function CoreCourse() {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center pb-[80px] gap-2">
-      <div className="w-[400px] ">
+      <div className="flex w-full justify-center pb-[80px] gap-4">
+      <div className="w-[450px] ">
         <div className="group relative h-[450px]">
           <Image
             src="/oop.png"
@@ -43,7 +43,7 @@ export default function CoreCourse() {
         </div>
       </div>
 
-      <div className="w-[400px] ">
+      <div className="w-[450px] ">
         <div className="group relative h-[450px]">
           <Image
             src="/api.png"
@@ -68,7 +68,7 @@ export default function CoreCourse() {
         </div>
       </div>
 
-      <div className="w-[400px] ">
+      <div className="w-[450px] ">
         <div className="group relative h-[450px]">
           <Image
             src="/fullstacknew.png"
