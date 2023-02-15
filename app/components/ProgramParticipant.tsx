@@ -4,15 +4,15 @@ import Link from "next/link";
 
 export default function ProgramParticipant() {
   return (
-    <div>
-      <div className="w-full bg-gray-100">
+
+      <div className="w-full bg-gray-100 py-[80px] ">
       
-          <div className=" h-auto py-[50px]">
+          <div className=" h-auto pb-[30px]">
             <div className=" bg-red text-center ">
-              <h6 className=" text-purple-600 text-[14px] text-4xl pt-[10px] text-center">
+              <h6 className=" text-purple-900 text-[14px] text-4xl pt-[10px] text-center font-semibold">
                 Specialized Tracks
               </h6>
-              <p className="text-purple-900 text-[18px] text-1xl pt-[10px] text-center">
+              <p className="text-purple-800 text-[18px] text-1xl text-center">
                 After completing the first three quarters the participants will
                 select one or more specializations consisting of two courses
                 each:
@@ -103,7 +103,7 @@ export default function ProgramParticipant() {
                   Cloud-Native Computing Specialization
                 </h6>
                 <p className="text-white text-[16px] text-2xl">
-                  The Cloud-Native Computing Specialization focuses on Containers,
+                  The Cloud-Native Computing focuses on Containers,
                   Kubernetes, and CDK for Kubernetes. .
                 </p>
                 <Link
@@ -147,7 +147,7 @@ export default function ProgramParticipant() {
               </div>
             </div>
           </div>
-          <div className="w-[400px] pt-[30px]">
+          <div className="w-[400px]">
             <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
               <Link
                 href="#"
@@ -178,7 +178,7 @@ export default function ProgramParticipant() {
               </div>
             </div>
           </div>
-          <div className="w-[400px] pt-[30px]">
+          <div className="w-[400px]">
             <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
               <Link
                 href="#"
@@ -210,7 +210,7 @@ export default function ProgramParticipant() {
             </div>
           </div>
           </div> 
-        </div>
       </div>
+
   );
 }

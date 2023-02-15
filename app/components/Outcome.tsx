@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Outcome() {
   return (
-    // bg-gradient-to-tr from-gray-600 to-gray-500
-    <div className=" w-full py-[50px] bg-white">
+
+    <div className=" w-full py-[80px]">
       <div className="w-full">
-        <h1 className="text-[14px] text-4xl px-[50px] text-center text-gray-800">
+        <h1 className="text-[14px] text-4xl px-[50px] text-center text-purple-900 font-semibold">
           The Outcome for Participants of the Program
         </h1>
-        <p className="px-[50px] pt-[10px] text-gray-800 text-16px text-1xl text-center">
+        <p className="px-[50px] pt-[10px] text-purple-800 text-16px text-1xl text-center">
           The graduates of this program will own products (Full-Stack App
           Templates, AR and VR Experiences, and APIs) that are marketed globally
           by the Panaverse DAO and, if they like, will also be able to start off
@@ -20,7 +20,7 @@ export default function Outcome() {
           economy a much-needed boost by expanding software exports.
         </p>
       </div>
-      <div className="flex pt-[80px] flex-wrap gap-2 w-[95%] m-auto">
+      <div className="flex pt-[30px] flex-wrap gap-2 w-[95%] m-auto">
         <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
