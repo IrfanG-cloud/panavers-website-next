@@ -51,7 +51,7 @@ export default function Navbar() {
               <Link
                 href={`${item.href}`}
                 key={idx}
-                className="color-white px-[20px] py-[10px] hover:bg-purple-900 hover:text-purple-600 hover:rounded-md hover:px-[20px] hover: py-[10px]"
+                className="color-white px-[20px] py-[10px] hover:bg-purple-400 hover:text-purple-600 hover:rounded-md hover:px-[20px] hover: py-[10px]"
               >
                 {item.label}
               </Link>
