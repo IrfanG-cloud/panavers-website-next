@@ -7,10 +7,10 @@ export default function Outcome() {
 
     <div className=" w-full py-[80px]">
       <div className="w-full">
-        <h1 className="text-[14px] text-5xl px-[50px] text-center text-white ">
+        <h1 className="text-[14px] text-3xl font-semibold px-[50px] text-center text-white ">
           The Outcome for Participants of the Program
         </h1>
-        <p className="px-[50px] text-white text-16px text-1xl text-center pt-[10px]">
+        <p className="px-[50px] text-white text-14px text-1xl text-center pt-[10px]">
           The graduates of this program will own products (Full-Stack App
           Templates, AR and VR Experiences, and APIs) that are marketed globally
           by the Panaverse DAO and, if they like, will also be able to start off
