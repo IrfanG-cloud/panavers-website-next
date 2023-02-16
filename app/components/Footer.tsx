@@ -7,8 +7,7 @@ export default function Footer() {
     <>
     <div
       className="flex 
-         bg-gray-800
-        h-[80px]
+        h-[120px]
         text-white
         text-1xl
         px-[50px]
@@ -17,10 +16,10 @@ export default function Footer() {
 "
     >
       <Link href="/">
-        <Image src="/logo.png" width={80} height={30} alt="logo" />
+        <Image src="/logo-white.png" width={100} height={50} alt="logo" />
       </Link>
-      <p className="text-gray-400">© 2023 Panaveasre DAO. All rights reserved</p>
-      <div className="flex justify-center space-x-4 text-gray-400">
+      <p className="text-purple-800">© 2023 Panaveasre DAO. All rights reserved</p>
+      <div className="flex justify-center space-x-4 text-purple-400 hover:text-purple-800 gap-4">
         <Link href='https://www.facebook.com/groups/panaverse'>Facebook</Link>
         <Link href='https://www.youtube.com/@panaverse/streams'>Youtube</Link>
         <Link href='https://github.com/panaverse'>Github</Link>

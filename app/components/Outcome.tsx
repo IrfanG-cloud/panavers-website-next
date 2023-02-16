@@ -7,10 +7,10 @@ export default function Outcome() {
 
     <div className=" w-full py-[80px]">
       <div className="w-full">
-        <h1 className="text-[14px] text-4xl px-[50px] text-center text-purple-900 font-semibold">
+        <h1 className="text-[14px] text-5xl px-[50px] text-center text-white ">
           The Outcome for Participants of the Program
         </h1>
-        <p className="px-[50px] pt-[10px] text-purple-800 text-16px text-1xl text-center">
+        <p className="px-[50px] text-white text-16px text-1xl text-center pt-[10px]">
           The graduates of this program will own products (Full-Stack App
           Templates, AR and VR Experiences, and APIs) that are marketed globally
           by the Panaverse DAO and, if they like, will also be able to start off
@@ -24,13 +24,13 @@ export default function Outcome() {
         <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
-              src="/metajobs.jpeg"
+              src="/metajobs.png"
               width={500}
               height={700}
               alt="Islamabad"
               className="object-cover h-[260px]"
             />
-            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-red-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
+            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-purple-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <Link
                 className="mt-5 px-4 py-2 text-2xl text-white duration-300"
                 href="https://portal.piaic.org/signup"
@@ -45,13 +45,13 @@ export default function Outcome() {
         <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
-              src="/blockchain.jpeg"
+              src="/blockchain.png"
               width={500}
               height={700}
               alt="Islamabad"
               className="object-cover h-[260px]"
             />
-            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-red-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
+            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-purple-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <Link
                 className="mt-5 px-4 py-2 text-2xl text-white duration-300"
                 href="https://portal.piaic.org/signup"
@@ -64,13 +64,13 @@ export default function Outcome() {
         <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
-              src="/we3salary.jpeg"
+              src="/game.png"
               width={500}
               height={700}
               alt="Islamabad"
               className="object-cover h-[260px]"
             />
-            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-red-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
+            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-purple-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <Link
                 className="mt-5 px-4 py-2 text-2xl text-white duration-300"
                 href="https://portal.piaic.org/signup"
@@ -90,7 +90,7 @@ export default function Outcome() {
               alt="Islamabad"
               className="object-cover h-[260px]"
             />
-            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-red-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
+            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-purple-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <Link
                 className="mt-5 px-4 py-2 text-2xl text-white duration-300"
                 href="https://portal.piaic.org/signup"
@@ -110,7 +110,7 @@ export default function Outcome() {
               alt="Islamabad"
               className="object-cover h-[260px]"
             />
-            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-red-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
+            <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-purple-600 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <Link
                 className="mt-5 px-4 py-2 text-2xl text-white duration-300"
                 href="https://portal.piaic.org/signup"

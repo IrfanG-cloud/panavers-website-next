@@ -41,9 +41,9 @@ export default function Navbar() {
 
   return (
     <div className="w-full mx-auto fixed top-0 px-12">
-      <div className="justify-between items-center flex ">
+      <div className="justify-between items-center flex">
         <Link href="/">
-          <Image src="/logo.png" width={120} height={70} alt="logo" />
+          <Image className="mt-[5px]" src="/logo-white.png" width={150} height={90} alt="logo" />
         </Link>
         <div className="flex gap-7 text-[16px] text-[#fff] ">
           {NAV_ITEMS.map((item, idx) => {

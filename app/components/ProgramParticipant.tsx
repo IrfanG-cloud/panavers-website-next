@@ -5,14 +5,14 @@ import Link from "next/link";
 export default function ProgramParticipant() {
   return (
 
-      <div className="w-full bg-gray-100 py-[80px] ">
+      <div className="w-full py-[80px] ">
       
           <div className=" h-auto pb-[30px]">
             <div className=" bg-red text-center ">
-              <h6 className=" text-purple-900 text-[14px] text-4xl pt-[10px] text-center font-semibold">
+              <h6 className=" text-white text-[14px] text-6xl pt-[10px] text-center font-semibold">
                 Specialized Tracks
               </h6>
-              <p className="text-purple-800 text-[18px] text-1xl text-center">
+              <p className="text-white text-[18px] text-1xl text-center pt-[10px]">
                 After completing the first three quarters the participants will
                 select one or more specializations consisting of two courses
                 each:

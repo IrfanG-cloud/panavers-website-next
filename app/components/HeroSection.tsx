@@ -9,10 +9,8 @@ export default function HeroSection() {
         w-full 
         h-screen
         justify-center  
-        flex 
-        bg-gradient-to-tr
-        from-purple-700
-        to-purple-900"
+        flex "
+       
     >
       <div className="w-full flex items-center ">
         <div className=" w-2/4 ml-10 pl-20">
