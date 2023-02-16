@@ -51,7 +51,7 @@ export default function Navbar() {
               <Link
                 href={`${item.href}`}
                 key={idx}
-                className="color-white px-[20px] py-[10px] hover:bg-purple-400 hover:text-purple-600 hover:rounded-md hover:px-[20px] hover: py-[10px]"
+                className="color-white px-[20px] py-[10px] font-semibold hover:bg-purple-400 hover:text-purple-600 hover:rounded-md hover:px-[20px] hover:py-[10px]"
               >
                 {item.label}
               </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
         </div>
         <div className="flex gap-2">
           <div>
-            <button className="w-30 h-12 bg-purple-700 text-white px-5 font-bold border-none rounded-md hover:bg-purple-900 hover:text-purple-600 text-1x1 active:bg-purple-700 focus:outline-none focus:ring focus:ring-red-300 ...">
+            <button className="w-30 h-12 bg-purple-700 text-white px-5 font-semibold border-none rounded-md hover:bg-purple-400 hover:text-purple-600 text-1x1 active:bg-purple-700 focus:outline-none focus:ring focus:ring-red-300 ...">
               <Link href="/auth/register">Apply</Link>
             </button>
           </div>

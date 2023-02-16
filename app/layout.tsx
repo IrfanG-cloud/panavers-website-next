@@ -8,9 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" bg-gradient-to-tr
-        from-gray-900
-        to-purple-900">{children}</body>
+      <body className=" bg-gradient-to-tr from-gray-900 to-purple-900 ">{children}</body>
     </html>
   );
 }

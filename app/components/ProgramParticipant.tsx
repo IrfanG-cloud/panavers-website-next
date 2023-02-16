@@ -9,7 +9,7 @@ export default function ProgramParticipant() {
       
           <div className=" h-auto pb-[30px]">
             <div className=" bg-red text-center ">
-              <h6 className=" text-white text-[14px] text-6xl pt-[10px] text-center font-semibold">
+              <h6 className=" text-white text-[14px] text-5xl pt-[10px] text-center">
                 Specialized Tracks
               </h6>
               <p className="text-white text-[18px] text-1xl text-center pt-[10px]">

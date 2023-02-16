@@ -8,7 +8,7 @@ export default function CoreCourse() {
       <div className="w-full ">
         <div className="group relative">
           <div className=" w-full text-black-800 py-[50px] text-center">
-            <h1 className="text-[14px] text-white text-6xl">
+            <h1 className="text-[14px] text-white text-5xl">
               Core Courses <span className="text-[14px] text-4xl ">(Common in All Specializations)</span>
             </h1>
             <p className="text-[18px] text-2xl text-white text-center mt-[10px]">

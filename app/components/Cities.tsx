@@ -7,7 +7,7 @@ export default function Cities() {
     <div className="w-full py-[100px] ">
       <div className="group relative">
           <div className=" w-full justify-left text-white">
-            <h1 className="text-[14px] text-6xl ml-[50px] text-center">
+            <h1 className="text-[14px] text-5xl ml-[50px] text-center">
               A Nationwide Program
             </h1>
           </div>

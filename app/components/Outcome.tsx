@@ -101,7 +101,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[400px] pt-[30px]">
+        <div className="w-[400px]">
           <div className="group relative h-[260px]">
             <Image
               src="/metadeveloper.jpg"
