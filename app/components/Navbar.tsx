@@ -40,10 +40,10 @@ export default function Navbar() {
   // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="w-full mx-auto fixed top-0 px-12">
+    <div className="w-full mx-auto fixed top-0 px-12 bg-purple-900 z-10">
       <div className="justify-between items-center flex">
         <Link href="/">
-          <Image className="mt-[5px]" src="/logo-white.png" width={150} height={90} alt="logo" />
+          <Image className="py-[10px]" src="/logo-white.png" width={100} height={50} alt="logo" />
         </Link>
         <div className="flex gap-7 text-[16px] text-[#fff] ">
           {NAV_ITEMS.map((item, idx) => {
