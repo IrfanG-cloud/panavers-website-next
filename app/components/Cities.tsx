@@ -26,7 +26,7 @@ export default function Cities() {
               <h1 className="text-2xl text-white font-bold">Islamabad</h1>
               <Link
                 className="mt-5 px-4 py-2 rounded-[5px] bg-gray-300 hover:bg-white-600 duration-300"
-                href="https://portal.piaic.org/signup"
+                href="/pages/courses"
               >
                 Continue
               </Link>
@@ -47,7 +47,7 @@ export default function Cities() {
               <h1 className="text-2xl text-white font-bold">Peshawar</h1>
               <Link
                 className="mt-5 px-4 py-2 rounded-[5px] bg-white hover:bg-white duration-300"
-                href="https://portal.piaic.org/signup"
+                href="/pages/courses"
               >
                 Continue
               </Link>
@@ -68,7 +68,7 @@ export default function Cities() {
               <h1 className="text-2xl text-white font-bold">Lahore</h1>
               <Link
                 className="mt-5 px-4 py-2 rounded-[5px] bg-white hover:bg-white duration-300"
-                href="https://portal.piaic.org/signup"
+                href="/pages/courses"
               >
                 Continue
               </Link>
@@ -88,7 +88,7 @@ export default function Cities() {
               <h1 className="text-2xl text-white font-bold"> Karachi</h1>
               <Link
                 className="mt-5 px-4 py-2 rounded-[5px] bg-white hover:bg-white duration-300"
-                href="https://portal.piaic.org/signup"
+                href="/pages/courses"
               >
                 Continue
               </Link>

@@ -27,7 +27,7 @@ export default function HeroSection() {
           </div>
           <div>
             <button className="w-[130px] h-[50px] mt-[40px] bg-purple-600 leading-[30px] bg-bottom text-white px-5 font-bold hover:bg-purple-400 hover:text-purple-600 border-none rounded-md text-1xl hover:bg-[0px -144px]">
-              <Link href="/auth/register">Apply</Link>
+              <Link href="/pages/courses">Apply</Link>
             </button>
           </div>
         </div>

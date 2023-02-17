@@ -11,13 +11,13 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "How It Work",
-    page: "howwork",
-    href: "/pages/howitwork",
+    page: "home",
+    href: "/",
   },
   {
-    label: "Apply",
-    page: "apply",
-    href: "/auth/register",
+    label: "Courses",
+    page: "courses",
+    href: "/pages/courses",
   },
   {
     label: "Available Programs",
@@ -25,13 +25,8 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/pages/availableprogram",
   },
   {
-    label: "WIT",
-    page: "wit",
-    href: "/pages/wit",
-  },
-  {
     label: "Contact Us",
-    page: "/pages/contactus",
+    page: "contactus",
     href: "/pages/contactus",
   },
 ];
@@ -61,7 +56,7 @@ export default function Navbar() {
         <div className="flex gap-2">
           <div>
             <button className="w-30 h-12 bg-purple-700 text-white px-5 font-semibold border-none rounded-md hover:bg-purple-400 hover:text-purple-600 text-1x1 active:bg-purple-700 focus:outline-none focus:ring focus:ring-red-300 ...">
-              <Link href="/auth/register">Apply</Link>
+              <Link href="/pages/courses">Apply</Link>
             </button>
           </div>
         </div>

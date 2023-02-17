@@ -7,7 +7,6 @@ export default function Apply() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
       <h1>Apply</h1>
       <Footer />
       </div>
