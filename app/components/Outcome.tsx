@@ -21,7 +21,7 @@ export default function Outcome() {
         </p>
       </div>
       <div className="flex pt-[30px] flex-wrap gap-2 w-[95%] m-auto">
-        <div className="w-[400px] ">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px]">
             <Image
               src="/metajobs.png"
@@ -42,7 +42,7 @@ export default function Outcome() {
           </div>
         </div>
 
-        <div className="w-[400px] ">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px]">
             <Image
               src="/blockchain.png"
@@ -61,7 +61,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[400px] ">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px]">
             <Image
               src="/game.png"
@@ -81,7 +81,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[400px] ">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px]">
             <Image
               src="/metagam.jpeg"
@@ -101,7 +101,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[400px]">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px]">
             <Image
               src="/metadeveloper.jpg"

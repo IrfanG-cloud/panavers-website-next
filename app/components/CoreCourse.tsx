@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CoreCourse() {
   return (
-    <div className="w-full justify-center">
+    <div className="w-full m-auto px-[60px] ">
       <div className="w-full ">
         <div className="group relative">
           <div className=" w-full text-black-800 py-[50px] text-center">
@@ -18,8 +18,8 @@ export default function CoreCourse() {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center pb-[80px] gap-4">
-      <div className="w-[450px] ">
+      <div className="w-full justify-center pb-[80px] px-[60px] sm:flex  md:flex lg:flex gap-4">
+      <div className="w-[450px] m-auto pt-[30px]">
         <div className="group relative h-[450px]">
           <Image
             src="/oop.png"
@@ -43,7 +43,7 @@ export default function CoreCourse() {
         </div>
       </div>
 
-      <div className="w-[450px] ">
+      <div className="w-[450px] m-auto pt-[30px]">
         <div className="group relative h-[450px]">
           <Image
             src="/api.png"
@@ -68,7 +68,7 @@ export default function CoreCourse() {
         </div>
       </div>
 
-      <div className="w-[450px] ">
+      <div className="w-[450px] pt-[30px]">
         <div className="group relative h-[450px]">
           <Image
             src="/fullstacknew.png"

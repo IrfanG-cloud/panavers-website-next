@@ -1,8 +1,12 @@
+'use client'
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/navigation';
 
 export default function HeroSection() {
+  const router = useRouter();
   return (
     <div
       className="
@@ -26,8 +30,12 @@ export default function HeroSection() {
             </p>
           </div>
           <div>
-            <button className="w-[130px] h-[50px] mt-[40px] bg-purple-600 leading-[30px] bg-bottom text-white px-5 font-bold hover:bg-purple-400 hover:text-purple-600 border-none rounded-md text-1xl hover:bg-[0px -144px]">
-              <Link href="/pages/courses">Apply</Link>
+            <button type="button" onClick={() => router.push('/pages/courses')}
+              className="w-[130px] h-[50px] mt-[40px] bg-purple-600 leading-[30px] 
+                          bg-bottom text-white px-5 font-bold hover:bg-purple-400 
+                          hover:text-purple-600 border-none rounded-md text-1xl hover:bg-[0px -144px]"
+                          >
+              Apply
             </button>
           </div>
         </div>
@@ -37,7 +45,7 @@ export default function HeroSection() {
           height={1800}
           width={1000}
           alt="image"
-          className="mt-[auto]"
+          className=" mt-[auto]"
         />
       </div>
     </div>

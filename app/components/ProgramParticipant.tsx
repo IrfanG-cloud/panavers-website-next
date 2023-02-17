@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function ProgramParticipant() {
   return (
-    <div className="w-full py-[80px] ">
+    <div className="w-full py-[80px] px-[20px] ">
       <div className=" h-auto pb-[30px]">
         <div className=" bg-red text-center ">
           <h6 className=" text-white text-[14px] text-3xl font-bold pt-[10px] text-center">
@@ -16,8 +16,8 @@ export default function ProgramParticipant() {
           </p>
         </div>
       </div>
-      <div className="flex m-auto w-[95%] flex-wrap gap-2">
-        <div className="w-[400px] ">
+      <div className="flex flex-wrap gap-2 justify-center">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
             <Link
               href="#"
@@ -49,7 +49,7 @@ export default function ProgramParticipant() {
             </div>
           </div>
         </div>
-        <div className="w-[400px] ">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
             <Link
               href="#"
@@ -80,7 +80,7 @@ export default function ProgramParticipant() {
             </div>
           </div>
         </div>
-        <div className="w-[400px] ">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
             <Link
               href="#"
@@ -112,7 +112,7 @@ export default function ProgramParticipant() {
             </div>
           </div>
         </div>
-        <div className="w-[400px] ">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
             <Link
               href="#"
@@ -144,7 +144,7 @@ export default function ProgramParticipant() {
             </div>
           </div>
         </div>
-        <div className="w-[400px]">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
             <Link
               href="#"
@@ -176,7 +176,7 @@ export default function ProgramParticipant() {
             </div>
           </div>
         </div>
-        <div className="w-[400px]">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative block overflow-hidden transition-all duration-500 h-[450px]">
             <Link
               href="#"

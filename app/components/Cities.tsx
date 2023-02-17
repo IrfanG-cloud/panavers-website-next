@@ -1,19 +1,24 @@
+'use client'
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/navigation';
 
 export default function Cities() {
+
+  const router = useRouter();
   return (
-    <div className="w-full py-[100px] ">
+    <div className="w-full py-[100px] px-[40px] ">
       <div className="group relative">
           <div className=" w-full justify-left text-white">
-            <h1 className="text-[14px] text-3xl ml-[50px] text-center font-semibold">
+            <h1 className="text-[14px] text-3xl ml-[50px] text-center pt-[80px] font-semibold">
               A Nationwide Program
             </h1>
           </div>
       </div>
-      <div className=" flex w-full justify-center gap-2 pt-[50px]">
-        <div className="w-[400px]">
+      <div className="  w-full justify-center gap-2 pt-[50px] sm:flex md:flex lg:flex">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px] w-450 p-4 border-4 shadow-lg border-purple-900">
             <Image
               src="/islamabad.png"
@@ -24,17 +29,18 @@ export default function Cities() {
             />
             <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-gradient-to-r from-green-800  via-green-600 to-green-800  opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <h1 className="text-2xl text-white font-bold">Islamabad</h1>
-              <Link
+              <button  type="button" 
+                      onClick={() => router.push('/pages/courses')}
                 className="mt-5 px-4 py-2 rounded-[5px] bg-gray-300 hover:bg-white-600 duration-300"
-                href="/pages/courses"
+
               >
                 Continue
-              </Link>
+              </button>
             </div>
           </div>
         </div>
 
-        <div className="w-[400px]">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px] w-450 p-4 border-4 shadow-lg border-purple-900">
             <Image
               src="/peshawar.png"
@@ -45,17 +51,16 @@ export default function Cities() {
             />
             <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-gradient-to-r from-yellow-700 via-yellow-600 to-yellow-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <h1 className="text-2xl text-white font-bold">Peshawar</h1>
-              <Link
+              <button type="button" onClick={() => router.push('/pages/courses')}
                 className="mt-5 px-4 py-2 rounded-[5px] bg-white hover:bg-white duration-300"
-                href="/pages/courses"
               >
                 Continue
-              </Link>
+              </button>
             </div>
           </div>
         </div>
 
-        <div className="w-[400px]">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px] w-450 p-4 border-4 shadow-lg border-purple-900">
             <Image
               src="/lahore.png"
@@ -66,16 +71,15 @@ export default function Cities() {
             />
             <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-gradient-to-r from-orange-700 via-orange-600 to-orange-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <h1 className="text-2xl text-white font-bold">Lahore</h1>
-              <Link
+              <button type="button" onClick={() => router.push('/pages/courses')}
                 className="mt-5 px-4 py-2 rounded-[5px] bg-white hover:bg-white duration-300"
-                href="/pages/courses"
               >
                 Continue
-              </Link>
+              </button>
             </div>
           </div>
         </div>
-        <div className="w-[400px]">
+        <div className="w-[400px] m-auto pt-[30px]">
           <div className="group relative h-[260px] w-450 p-4 border-4 shadow-lg border-purple-900">
             <Image
               src="/karachi.png"
@@ -86,12 +90,11 @@ export default function Cities() {
             />
             <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-gradient-to-r from-blue-800 via-blue-600 to-blue-800 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <h1 className="text-2xl text-white font-bold"> Karachi</h1>
-              <Link
+              <button type="button" onClick={() => router.push('/pages/courses')}
                 className="mt-5 px-4 py-2 rounded-[5px] bg-white hover:bg-white duration-300"
-                href="/pages/courses"
               >
                 Continue
-              </Link>
+              </button>
             </div>
           </div>
         </div>
