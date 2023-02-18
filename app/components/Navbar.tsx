@@ -38,13 +38,13 @@ const NAV_ITEMS: Array<NavItem> = [
 
 
 
-// function NavLink({to, children}) {
-//     return <a href={to} className={`mx-4`}>
-//         {children}
-//     </a>
-// }
+function NavLink({to, children}) {
+    return <a href={to} className={`mx-4`}>
+        {children}
+    </a>
+}
 
-function MobileNav() {
+function MobileNav({open, setOpen}) {
   const router = useRouter();
     return (
         <div className={`absolute top-0 left-0 h-screen w-screen bg-purple-800 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
